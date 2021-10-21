@@ -4,55 +4,55 @@ from pyrogram.types import InlineKeyboardButton
 class Data:
     # Start Message
     START = """
-Hey {}
+Hey, você mesmo seu gay! ♦ {}
 
-Welcome to {}
+Bem vindo(a) ao {}
 
-I can extract text from images using OCR technology.
+♦ Sou um bot que faz extrair imagens para textos ♦
 
-By @StarkBots
+E pelo fim, mais uma jornada de um boi apertando start neu 😑
     """
 
     # Home Button
     home_buttons = [
-        [InlineKeyboardButton("✨ Bot Status and More Bots ✨", url="https://t.me/StarkBots/7")],
-        [InlineKeyboardButton(text="🏠 Return Home 🏠", callback_data="home")],
+        [InlineKeyboardButton("♦ 𝕮𝖗𝖎𝖆𝖉𝖔𝖗 ♦", url="https://t.me/xPV_D4_M34_S4Y0R1_D3M0N_CR4ZZYx")],
+        [InlineKeyboardButton(text="♦ Retornar ao inicial ♦", callback_data="home")],
     ]
     # Rest Buttons
     buttons = [
         [
-            InlineKeyboardButton("✨ Bot Status and More Bots ✨", url="https://t.me/StarkBots/7")
+            InlineKeyboardButton("♦ 𝕮𝖗𝖎𝖆𝖉𝖔𝖗 ♦", url="https://t.me/xPV_D4_M34_S4Y0R1_D3M0N_CR4ZZYx")
         ],
         [
-            InlineKeyboardButton("How to Use ❔", callback_data="help"),
-            InlineKeyboardButton("🎪 About 🎪", callback_data="about")
+            InlineKeyboardButton("Como me usar ❔", callback_data="help"),
+            InlineKeyboardButton("🧐 Sobre eu é ❔🧐", callback_data="about")
         ],
-        [InlineKeyboardButton("♥ More Amazing bots ♥", url="https://t.me/StarkBots")],
-        [InlineKeyboardButton("🎨 Support Group 🎨", url="https://t.me/StarkBotsChat")],
+        [InlineKeyboardButton("⚙️ Canal ⚙️", url="https://t.me/RabiscoS_MeuS_77")],
+        [InlineKeyboardButton("⚙️ Grupo ⚙️", url="https://t.me/blazer808_Stay")],
     ]
 
     # Help Message
     HELP = """
-You Really Need Help ?!?!?!?!
+Você realmente precisa de ajuda porra? 🧐
 
-Just send an image. Rest is on me.
+Basta enviar uma imagem... O resto eu que faço, beleza?
 
-Note : You can send any amount of images at once and it will work with same speed and accuracy.
+Nota : Então, seu gay... Pode enviar qualquer quantidade de imagens de uma só vez, e funcionará com a mesma velocidade de download e extração.
 
-More features in development. Keep track by joining @StarkBots.
+Tenha-se vergonha na cara, e faça certo infeliz🤬.
     """
 
     # About Message
     ABOUT = """
-**About This Bot** 
+**Sobre eu é 🤔** 
 
-Bot created by @StarkBots
+Bot criado pelos Baianor's @xPV_D4_M34_S4Y0R1_D3M0N_CR4ZZYx ~ @PV_D0_M30_D3M0N12YNH0_P4ND4
 
-Source Code : [Click Here](https://github.com/StarkBotsIndustries/OCRBot)
+Baianor : [Baianor](https://t.me/xPV_D4_M34_S4Y0R1_D3M0N_CR4ZZYx)
 
-Framework : [Pyrogram](docs.pyrogram.org)
+Estrutura : [Pyrogram](docs.pyrogram.org)
 
-Language : [Python](www.python.org)
+Idioma : [Python](www.python.org)
 
-Developer : @StarkProgrammer
+Desenvolvedor : @xPV_D4_M34_S4Y0R1_D3M0N_CR4ZZYx
     """
