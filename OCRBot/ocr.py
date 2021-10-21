@@ -13,7 +13,7 @@ async def _ocr(_, msg: Message):
     user_id = msg.from_user.id
     message_id = msg.message_id
     name_format = f"StarkBots_{user_id}_{message_id}"
-    message = await msg.reply("Downloading and Extracting...")
+    message = await msg.reply("🤔😒 Calma bixa, tô extraindo tah fela da pota...")
     image = await msg.download(file_name=f"{name_format}.jpg")
     img = Image.open(image)
     text = pytesseract.image_to_string(img)
@@ -21,6 +21,6 @@ async def _ocr(_, msg: Message):
     try:
         await msg.reply(text, quote=True, disable_web_page_preview=True)
     except MessageEmpty:
-        await msg.reply("Either the image has no text or the text is not recognizable.", quote=True)
+        await msg.reply("A merda dessa imagem não tem texto ou o texto não é reconhecível.", quote=True)
     await message.delete()
     os.remove(image)
