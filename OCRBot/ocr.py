@@ -13,7 +13,7 @@ async def _ocr(_, msg: Message):
     user_id = msg.from_user.id
     message_id = msg.message_id
     name_format = f"StarkBots_{user_id}_{message_id}"
-    message = await msg.reply("🤔😒 Calma bixa, tô extraindo tah fela da pota...")
+    message = await msg.reply("😒 Tô extraindo, tah? fela da pota...")
     image = await msg.download(file_name=f"{name_format}.jpg")
     img = Image.open(image)
     text = pytesseract.image_to_string(img)
