@@ -15,13 +15,13 @@ E pelo fim, mais uma jornada de um boi apertando start neu 😑
 
     # Home Button
     home_buttons = [
-        [InlineKeyboardButton("♦ 𝕮𝖗𝖎𝖆𝖉𝖔𝖗 ♦", url="https://t.me/xPV_D4_M34_S4Y0R1_D3M0N_CR4ZZYx")],
+        [InlineKeyboardButton("♦ 𝕮𝖗𝖎𝖆𝖉𝖔𝖗 ♦", url="https://t.me/The_Panda_Ofc")],
         [InlineKeyboardButton(text="♦ Retornar ao inicial ♦", callback_data="home")],
     ]
     # Rest Buttons
     buttons = [
         [
-            InlineKeyboardButton("♦ 𝕮𝖗𝖎𝖆𝖉𝖔𝖗 ♦", url="https://t.me/xPV_D4_M34_S4Y0R1_D3M0N_CR4ZZYx")
+            InlineKeyboardButton("♦ 𝕮𝖗𝖎𝖆𝖉𝖔𝖗 ♦", url="https://t.me/The_Panda_Ofc")
         ],
         [
             InlineKeyboardButton("Como me usar ❔", callback_data="help"),
@@ -46,13 +46,13 @@ Tenha-se vergonha na cara, e faça certo infeliz🤬.
     ABOUT = """
 **Sobre eu é 🤔** 
 
-Bot criado pelos Baianor's @xPV_D4_M34_S4Y0R1_D3M0N_CR4ZZYx ~ @PV_D0_M30_D3M0N12YNH0_P4ND4
+Bot criado pelos Baianor's @The_Panda_Ofc ~ Sayori Chan
 
-Baianor : [Baianor](https://t.me/xPV_D4_M34_S4Y0R1_D3M0N_CR4ZZYx)
+Baianor : [Baianor](https://t.me/The_Panda_Ofc)
 
 Estrutura : [Pyrogram](docs.pyrogram.org)
 
 Idioma : [Python](www.python.org)
 
-Desenvolvedor : @xPV_D4_M34_S4Y0R1_D3M0N_CR4ZZYx
+Desenvolvedor : @The_Panda_Ofc
     """
